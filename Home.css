@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(6, 6, 63);
+}
+#cyber{
+    display:inline-block;
+    position:absolute;
+    right:100px; 
+    top:300px;
+ 
+
+}
+#same{
+    color:rgb(14, 14, 83);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: 55px;
+}
+#sames{
+    color:rgb(14, 14, 83);
+    font-family: cursive;
+    font-size: 30px;
+}
