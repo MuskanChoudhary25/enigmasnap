@@ -1,4 +1,5 @@
-import React from 'react';
+
+      import React from 'react';
 import './Home.css';
 
 const Home = () => {
@@ -22,53 +23,28 @@ const Home = () => {
    <div className="collapse navbar-collapse" id="navbarSupportedContent">
      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
      <li className="nav-item">
-         <a className="nav-link" aria-current="page" href="#">Files</a>
+         <a className="nav-link" aria-current="page" href="/sharpen">Sharpen Image</a>
        </li>
        <li className="nav-item">
-         <a className="nav-link" aria-current="page" href="#">Edit</a>
+         <a className="nav-link" aria-current="page" href="/blur">Blur Image</a>
        </li>
        <li className="nav-item">
-         <a className="nav-link" href="#">Draw</a>
+         <a className="nav-link" href="/gray">Gray Scale Image</a>
        </li>
        <li className="nav-item">
-         <a className="nav-link" aria-current="page" href="#">Borders</a>
+         <a className="nav-link" aria-current="page" href="/invert">Invert Image(Colors)</a>
        </li>
        <li className="nav-item">
-         <a className="nav-link" aria-current="page" href="#">Filters</a>
+         <a className="nav-link" aria-current="page" href="/lighten">Lighten Photo</a>
        </li>
-       <li className="nav-item">
-         <a className="nav-link" aria-current="page" href="#">Adjust</a>
-       </li>
-       <li className="nav-item">
-         <a className="nav-link" aria-current="page" href="#">Effects</a>
-       </li>
-       <li className="nav-item">
-         <a className="nav-link" aria-current="page" href="#">Art</a>
-       </li>
-       <li className="nav-item">
-         <a className="nav-link" aria-current="page" href="#">Animation</a>
-       </li>
-       <li className="nav-item dropdown">
-         <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           Dropdown
-         </a>
-         <ul className="dropdown-menu">
-           <li><a className="dropdown-item" href="#">Action</a></li>
-           <li><a className="dropdown-item" href="#">Another action</a></li>
-           <li><hr className="dropdown-divider"></hr></li>
-           <li><a className="dropdown-item" href="#">Something else here</a></li>
-         </ul>
-       </li>
+       
        <li className="nav-item " >
          <a className="nav-link" aria-current="page" href="#">Help</a>
        </li>
        
      </ul>
      
-     <form className="d-flex" role="search">
-       <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-       <button className="btn btn-outline-success" type="submit">Search</button>
-     </form>
+     
    </div>
  </div>
 </nav>
